@@ -11,4 +11,13 @@
     align-items: flex-start;
 }
 
+.footer {
+    background: blue;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end
+}
+
 
