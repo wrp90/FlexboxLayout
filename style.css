@@ -1,8 +1,9 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: stretch;
+    justify-content: space-between;
+    width: 1024px;
+    height: 768px;
 }
 
 .header {
@@ -25,16 +26,19 @@
 
 .sidebar {
     background: pink;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     width: 300px;
-    height: 700px;
     height: auto;
 }
 
 .content {
     background: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
-    width: 660px;
-    height: 700px;
+    width: 724px;
+    height: auto;
 }
 
